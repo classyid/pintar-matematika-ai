@@ -32,26 +32,26 @@ Sekarang:
 pip install google-generativeai
 pip install langchain-core
 pip install tenacity
-
+```
 
 ### Konfigurasi
 1. Dapatkan API key dari [Google AI Studio](https://makersuite.google.com/app/apikey)
 2. Ganti `YOUR_API_KEY` dengan API key Anda di file `math_guru.py`:
 ```python
 GOOGLE_API_KEY = "YOUR_API_KEY"
-
+```
 
 ### Menjalankan Aplikasi
 1. Download atau clone repository ini
 ```bash
 git clone https://github.com/username/math-guru-ai.git
 cd math-guru-ai
-
+```
 
 2. Jalankan aplikasi
 ```bash
 python3 math_guru.py
-
+```
 
 ## 📖 Penggunaan
 
