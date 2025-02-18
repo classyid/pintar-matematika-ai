@@ -39,7 +39,7 @@ pip install tenacity
 ### Menjalankan Aplikasi
 ```bash
 python3 math_guru.py
-```
+
 
 ## 📖 Penggunaan
 - Ketik pertanyaan matematika Anda
