@@ -1,4 +1,3 @@
-```markdown
 # 🎯 Math Guru AI
 
 Asisten pembelajaran matematika pintar yang ditenagai oleh Google Gemini AI. Dirancang untuk membantu siswa memahami konsep matematika dengan cara yang interaktif dan menyenangkan.
@@ -33,7 +32,7 @@ Sekarang:
 pip install google-generativeai
 pip install langchain-core
 pip install tenacity
-```
+
 
 ### Konfigurasi
 1. Dapatkan API key dari [Google AI Studio](https://makersuite.google.com/app/apikey)
