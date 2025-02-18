@@ -1,3 +1,4 @@
+```markdown
 # 🎯 Math Guru AI
 
 Asisten pembelajaran matematika pintar yang ditenagai oleh Google Gemini AI. Dirancang untuk membantu siswa memahami konsep matematika dengan cara yang interaktif dan menyenangkan.
@@ -13,6 +14,7 @@ Asisten pembelajaran matematika pintar yang ditenagai oleh Google Gemini AI. Dir
 - 🧹 Fitur clear screen untuk antarmuka yang bersih
 
 ## 🚀 Perbandingan dengan Versi Sebelumnya
+
 Sebelumnya:
 - Menggunakan Ollama + Qwen
 - Memerlukan server lokal
@@ -31,28 +33,58 @@ Sekarang:
 pip install google-generativeai
 pip install langchain-core
 pip install tenacity
+```
 
 ### Konfigurasi
 1. Dapatkan API key dari [Google AI Studio](https://makersuite.google.com/app/apikey)
-2. Ganti `YOUR_API_KEY` dengan API key Anda
+2. Ganti `YOUR_API_KEY` dengan API key Anda di file `math_guru.py`:
+```python
+GOOGLE_API_KEY = "YOUR_API_KEY"
+```
 
 ### Menjalankan Aplikasi
+1. Download atau clone repository ini
+```bash
+git clone https://github.com/username/math-guru-ai.git
+cd math-guru-ai
+```
+
+2. Jalankan aplikasi
 ```bash
 python3 math_guru.py
-
+```
 
 ## 📖 Penggunaan
-- Ketik pertanyaan matematika Anda
-- Ketik 'clear' untuk membersihkan layar
-- Ketik 'keluar' untuk mengakhiri sesi
+
+Setelah aplikasi berjalan:
+1. Ketik pertanyaan matematika Anda dalam Bahasa Indonesia
+2. Tunggu respons dari AI
+3. Gunakan perintah khusus:
+   - Ketik `clear` untuk membersihkan layar
+   - Ketik `keluar` untuk mengakhiri sesi
 
 ## 🤝 Kontribusi
-Kontribusi selalu diterima! Silakan buat pull request atau issue untuk perbaikan dan saran.
+
+Kontribusi selalu diterima! Cara berkontribusi:
+1. Fork repository ini
+2. Buat branch baru (`git checkout -b fitur-baru`)
+3. Commit perubahan Anda (`git commit -m 'Menambahkan fitur baru'`)
+4. Push ke branch tersebut (`git push origin fitur-baru`)
+5. Buat Pull Request
 
 ## 📝 Lisensi
-MIT License
+
+Proyek ini dilisensikan di bawah MIT License - lihat file [LICENSE](LICENSE) untuk detail.
 
 ## 🙏 Kredit
-- Google Generative AI
-- LangChain
+
+- [Google Generative AI](https://ai.google.dev/)
+- [LangChain](https://www.langchain.com/)
+- [Tenacity](https://tenacity.readthedocs.io/)
+
+## 📞 Dukungan
+
+Jika Anda menemukan masalah atau memiliki pertanyaan:
+1. Buat issue di repository ini
+2. Hubungi kami melalui email di: kontak@classy.id
 ```
